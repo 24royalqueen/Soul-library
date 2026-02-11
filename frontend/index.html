@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Library Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="search">
+            <input type="text" id="searchInput" placeholder="Search for books...">
+            <button id="searchButton">Search</button>
+        </section>
+        <section id="books">
+            <h2>Available Books</h2>
+            <div id="bookList">
+                <!-- Book items will be dynamically added here -->
+            </div>
+        </section>
+        <section id="login">
+            <h2>User Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Soul-library. All rights reserved.</p>
+    </footer>
+</body>
+</html>
